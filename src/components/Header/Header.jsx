@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
-import './Header.css'
+import './Header.css';
 const Header = () => {
     const {user, onClose} = useTelegram();
   
@@ -11,7 +11,7 @@ return (
             <span className={'username'}>
                 {user?.username}
             </span>
-</div>
+    </div>
 );
 };
 
