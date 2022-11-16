@@ -17,7 +17,6 @@ function App() {
   },[])
 
 
-
   return (
     <div className="App">
         <Header />
@@ -26,7 +25,7 @@ function App() {
             <Route path={'form'} element={<Form />}/>
         </Routes>
     </div>
- );
+);
 }
 
 export default App;
