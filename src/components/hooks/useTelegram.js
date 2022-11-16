@@ -13,10 +13,12 @@ export function useTelegram() {
             tg.MainButton.show();
         }
     }
+
     return {
         onClose,
         onToggleButton,
         tg,
-        user: id.initDataUnsafe?.user,
+        user: tg.initDataUnsafe?.user,
+        queryId: tg.initDataUnsafe?.query_id,
     }
 }
