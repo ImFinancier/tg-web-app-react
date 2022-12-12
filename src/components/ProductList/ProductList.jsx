@@ -8,14 +8,14 @@ import {useCallback, useEffect} from "react";
 
 
 const products = [
-    {id: '1', title: 'Crypto Shawarma', price: 7000, description: 'Синего цвета, прямые'},
-    {id: '2', title: 'Marathon', price: 17000, description: 'Зеленого цвета, теплая'},
-    {id: '3', title: 'Forex', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '4', title: 'Stock', price: 6500, description: 'Зеленого цвета, теплая'},
-    {id: '5', title: 'DeFi', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '6', title: 'Chat [Trading]', price: 650, description: 'Зеленого цвета, теплая'},
-    {id: '7', title: 'Urban Trading', price: 5500, description: 'Синего цвета, прямые'},
-    {id: '8', title: 'Обучение', price: 17000, description: 'Зеленого цвета, теплая'},
+    {id: '1', title: 'Crypto Shawarma', price: 7000, description: 'coming soon'},
+    {id: '2', title: 'Marathon', price: 17000, description: 'coming soon'},
+    {id: '3', title: 'Forex', price: 5000, description: 'coming soon'},
+    {id: '4', title: 'Stock', price: 6500, description: 'coming soon'},
+    {id: '5', title: 'DeFi', price: 5000, description: 'coming soon'},
+    {id: '6', title: 'Chat [Trading]', price: 650, description: 'coming soon'},
+    {id: '7', title: 'Urban Trading', price: 5500, description: 'coming soon'},
+    {id: '8', title: 'Обучение', price: 17000, description: 'coming soon'},
 ]
 
 const getTotalPrice = (items = []) => {
